@@ -50,9 +50,9 @@ const Navbar = () => {
             </ui>
 
             {/* Social Media */}
-            <div className="flex fixed flex-col top-[35%] left-0">
+            <div className="lg:flex fixed flex-col top-[35%] left-0 hidden">
                 <ul>
-                    <li className="w-[160px] h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500">
+                    <li className="w-[160px] h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700">
                         <a
                             className=" flex justify-between items-center w-full text-cpink-20"
                             href=""
@@ -63,7 +63,7 @@ const Navbar = () => {
                             <LinkedIn />
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500">
+                    <li className="w-[160px] h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700">
                         <a
                             className=" flex justify-between items-center w-full text-cpink-20"
                             href=""
@@ -74,7 +74,7 @@ const Navbar = () => {
                             <GitHub />
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500">
+                    <li className="w-[160px] h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700">
                         <a
                             className=" flex justify-between items-center w-full text-cpink-20"
                             href=""
@@ -83,7 +83,7 @@ const Navbar = () => {
                             <Mail />
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500">
+                    <li className="w-[160px] h-[60px]  flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700">
                         <a
                             className=" flex justify-between items-center w-full text-cpink-20"
                             href=""
