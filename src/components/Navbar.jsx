@@ -10,34 +10,30 @@ const Navbar = () => {
             </div>
 
             {/* Menu */}
-            <div>
-                <ui className="flex list-none">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Works</li>
-                    <li>Contact</li>
-                </ui>
-            </div>
+            <ui className="hidden md:flex list-none">
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Works</li>
+                <li>Contact</li>
+            </ui>
 
             {/* Hamburger */}
-            <div className="hidden">
+            <div className="md:hidden z-10">
                 <ListMenu />
             </div>
 
             {/* Mobile */}
-            <div className="hidden">
-                <ui>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Works</li>
-                    <li>Contact</li>
-                </ui>
-            </div>
+            <ui className="list-none absolute top-0 left-0 w-full h-screen bg-cblue-900 flex flex-col justify-center items-center hidden">
+                <li className="py-6 text-4xl">Home</li>
+                <li className="py-6 text-4xl">About</li>
+                <li className="py-6 text-4xl">Skills</li>
+                <li className="py-6 text-4xl">Works</li>
+                <li className="py-6 text-4xl">Contact</li>
+            </ui>
 
             {/* Social Media */}
-            <div></div>
+            <div className="hidden"></div>
         </div>
     );
 };
