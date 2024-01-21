@@ -29,6 +29,7 @@ module.exports = {
             "cpink-800": "#641434",
             "cpink-900": "#320a1a",
 
+            // Green
             "cgreen-100": "#d4f9d6",
             "cgreen-200": "#a8f4ad",
             "cgreen-300": "#7dee83",
