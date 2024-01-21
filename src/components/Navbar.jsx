@@ -21,13 +21,13 @@ const Navbar = () => {
             </div>
 
             {/* Menu */}
-            <ui className="hidden md:flex list-none">
+            <ul className="hidden md:flex list-none">
                 <li>Home</li>
                 <li>About</li>
                 <li>Skills</li>
                 <li>Works</li>
                 <li>Contact</li>
-            </ui>
+            </ul>
 
             {/* Hamburger */}
             <div className="md:hidden z-10" onClick={handleClick}>
@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile */}
-            <ui
+            <ul
                 className={
                     !isNav
                         ? "hidden"
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <li className="py-6 text-4xl">Skills</li>
                 <li className="py-6 text-4xl">Works</li>
                 <li className="py-6 text-4xl">Contact</li>
-            </ui>
+            </ul>
 
             {/* Social Media */}
             <div className="lg:flex fixed flex-col top-[35%] left-0 hidden">
