@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Logo from "../assets/logo1.png";
 import ListMenu from "../icons/ListMenu";
 import XMark from "../icons/XMark";
@@ -13,8 +13,26 @@ const Navbar = () => {
         setIsNav(!isNav);
     };
 
+    const [scrollTop, setScrollTop] = useState(0);
+    console.log(scrollTop);
+
+    useEffect(() => {
+        const onScroll = (e) => {
+            setScrollTop(e.target.documentElement.scrollTop);
+        };
+        window.addEventListener("scroll", onScroll);
+
+        return () => window.removeEventListener("scroll", onScroll);
+    }, [scrollTop]);
+
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-cblue-700 text-cpink-50">
+        <div
+            className={`fixed w-full h-[80px] flex justify-between items-center px-4 bg-cblue-800 text-cpink-50 ${
+                scrollTop === 0
+                    ? ""
+                    : "opacity-70 shadow-2xl shadow-cblue-800/50"
+            }`}
+        >
             {/* Logo */}
             <div>
                 <img style={{ width: "50px" }} src={Logo} alt="logo" />

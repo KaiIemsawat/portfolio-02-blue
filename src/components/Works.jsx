@@ -9,10 +9,7 @@ import Card from "./components/Card";
 
 const Works = () => {
     return (
-        <div
-            className="bg-cblue-800 w-full md:h-screen md:mt-[1020px]"
-            name="works"
-        >
+        <div className="bg-cblue-800 w-full  mt-32 sm:mt-16" name="works">
             <div className="flex flex-col w-full h-full justify-center mx-auto max-w-[980px] lg:max-w-[820px] xl:max-w-[1024px] px-8 text-cpink-50">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-cpink-500">

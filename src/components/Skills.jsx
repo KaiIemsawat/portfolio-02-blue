@@ -11,7 +11,7 @@ import TailwndIcon from "../icons/TailwndIcon";
 const Skills = () => {
     return (
         <div
-            className="bg-cblue-800 w-full h-screen pb-64 md:mt-[128px]"
+            className="bg-cblue-800 w-full h-screen pb-64 mt-[480px] sm:mt-16"
             name="skills"
         >
             {/* Container */}
