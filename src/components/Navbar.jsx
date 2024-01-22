@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 
-import Logo from "../assets/logo1.png";
+import Logo from "../assets/logo.png";
 import ListMenu from "../icons/ListMenu";
 import XMark from "../icons/XMark";
 import LinkedIn from "../icons/LinkedIn";
