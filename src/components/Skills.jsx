@@ -10,7 +10,10 @@ import TailwndIcon from "../icons/TailwndIcon";
 
 const Skills = () => {
     return (
-        <div className="bg-cblue-800 w-full h-screen my-32" name="skills">
+        <div
+            className="bg-cblue-800 w-full h-screen pb-64 md:mt-[128px]"
+            name="skills"
+        >
             {/* Container */}
             <div className="flex flex-col w-full h-full justify-center mx-auto max-w-[980px] lg:max-w-[820px] xl:max-w-[1024px] px-8 text-cpink-50">
                 <div className="pb-8">
@@ -25,63 +28,63 @@ const Skills = () => {
 
                 <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-y-6">
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto">
                             <JsIcon />
                         </span>
                         <p className="my-4 ">JavaScript</p>
                     </div>
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto">
                             <ReactIcon />
                         </span>
                         <p className="my-4 ">React</p>
                     </div>
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto">
                             <MongoDbIcon />
                         </span>
                         <p className="my-4 ">NongoDB</p>
                     </div>
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto text-lg">
                             <JavaIcon />
                         </span>
                         <p className="my-4 ">Java</p>
                     </div>
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto">
                             <SpringIcon />
                         </span>
                         <p className="my-4 ">Spring</p>
                     </div>
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto">
                             <MySqlIcon />
                         </span>
                         <p className="my-4 ">MySQL</p>
                     </div>
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto">
                             <TailwndIcon />
                         </span>
                         <p className="my-4 ">TailwindCSS</p>
                     </div>
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto">
                             <BootstrapIcon />
                         </span>
                         <p className="my-4 ">Bootstrap</p>
                     </div>
                     {/* Icon */}
-                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cpink-500 hover:bg-opacity-20 rounded-lg mx-4 pt-4 ">
+                    <div className="flex flex-col items-center border border-cpink-50 hover:bg-cblue-700 rounded-lg mx-4 pt-4 duration-500">
                         <span className="mx-auto">
                             <GitIcon />
                         </span>
