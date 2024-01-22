@@ -13,9 +13,8 @@ const Navbar = () => {
         setIsNav(!isNav);
     };
 
+    // Get Screen Position
     const [scrollTop, setScrollTop] = useState(0);
-    console.log(scrollTop);
-
     useEffect(() => {
         const onScroll = (e) => {
             setScrollTop(e.target.documentElement.scrollTop);
@@ -30,7 +29,7 @@ const Navbar = () => {
             className={`fixed w-full h-[80px] flex justify-between items-center px-4 bg-cblue-800 text-cpink-50 ${
                 scrollTop === 0
                     ? ""
-                    : "opacity-70 shadow-2xl shadow-cblue-800/50"
+                    : "opacity-60 shadow-2xl shadow-cblue-800/50"
             }`}
         >
             {/* Logo */}
