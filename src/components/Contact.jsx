@@ -2,7 +2,7 @@ const Contact = () => {
     return (
         <div
             className="w-full h-screen bg-cblue-800 flex flex-col justify-center items-center px-8"
-            name="contct"
+            name="contact"
         >
             <div className="text-right pb-8 sm:pl-4 max-w-[600px] w-full">
                 <p className="text-4xl font-bold inline border-b-4 border-cpink-500 text-cpink-50">
@@ -43,7 +43,6 @@ const Contact = () => {
                     placeholder="Your email"
                     required
                 />
-
                 <textarea
                     className="bg-cblue-800 border border-cpink-500 rounded-md p-2 mb-2"
                     name="message"
